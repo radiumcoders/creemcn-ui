@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "creem-cn",
+  "homepage": "https://creemcn-ui.vercel.app/",
+  "items": [
+    {
+      "name": "creem-button",
+      "type": "registry:component",
+      "title": "Creem Button",
+      "description": "Creem-styled wrapper around the shadcn Button.",
+      "registryDependencies": ["button", "utils"],
+      "dependencies": ["class-variance-authority"],
+      "files": [
+        {
+          "path": "components/ui/creem-cn/button.tsx",
+          "type": "registry:component",
+          "target": "components/ui/creem-cn/button.tsx"
+        }
+      ]
+    }
+  ]
+}
